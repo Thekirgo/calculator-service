@@ -4,6 +4,11 @@
 1. Оркестратор (orchestrator) - принимает выражения от пользователей, разбивает их на подзадачи и координирует их выполнение
 2. Агент (agent) - выполняет отдельные арифметические операции
 
+## Контакты для связи
+
+- [Telegram](https://t.me/int99)
+- [Email](mailto:erlangu@yandex.ru)
+
 ## Требования
 
 - Go 1.21 или выше
@@ -13,8 +18,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/calculator-service.git
-cd calculator-service
+git clone https://github.com/Thekirgo/calculator-service.git
 ```
 
 2. Установите зависимости:
