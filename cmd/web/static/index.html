@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Распределённый калькулятор</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Распределённый калькулятор</h1>
+        
+        <div class="calculator">
+            <div class="input-group">
+                <input type="text" id="expression" placeholder="Введите выражение (например, 2+2*(3-1))">
+                <button id="calculate">Вычислить</button>
+            </div>
+            <div id="result" class="result-area"></div>
+        </div>
+        
+        <div class="history">
+            <h2>История вычислений</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html> 

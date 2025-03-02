@@ -1,0 +1,7 @@
+# IDE specific files
+.idea/
+*.iml
+*.iws 
+# Исполняемые файлы
+/main
+*.exe
